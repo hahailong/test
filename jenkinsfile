@@ -1,0 +1,10 @@
+pipeline {
+  agent any 
+  stage {
+    stages ('clone') {
+          steps {
+              git 'https://github.com/hahailong/test.git'
+}
+}
+}
+}
